@@ -11,18 +11,18 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        Log.d("MainActivity", "app up and running");
+        Log.d("MainActivity", "Activity Created");
     }
 
     @Override
     protected void onPause() {
         super.onPause();
-        Log.d("MainActivity", "app paused");
+        Log.d("MainActivity", "Activity paused");
     }
 
     @Override
     protected void onResume() {
         super.onResume();
-        Log.d("MainActivity", "app resuming");
+        Log.d("MainActivity", "Activity resuming");
     }
 }
